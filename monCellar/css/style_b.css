@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header > div > nav{
+    background-color:#8f1e1e;
+    color: #fff !important;
+}
+nav #logo{
+    width: 6em;
+    margin-left: 2em;
+}
+nav ul li{
+    margin-right: 1.8em;
+}
+nav ul li a{
+  
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #fff !important;
+   
+}
+.container div.col-md-7.col-sm-12{
+    background-image: linear-gradient(45deg,#7a0a0a,#8f1e1e);
+    color: #fff;
+    box-shadow: 0px 0px  10px rgba(119, 114, 114, 0.5);
+}
+.container #img-verre{
+    height: 100vh;
+    width: 39.5em;
+}
+body > header > div.container.text-center > div > div.col-md-7.col-sm-12 > a{
+    background-color: #8f1e1e;
+    color: #fff;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }

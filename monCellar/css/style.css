@@ -1,0 +1,19 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  #navbar{
+      background-color:transparent !important;
+  }
+  *{
+      margin: 0;
+      padding: 0;
+  }
+.carousel-item{
+    background-image: linear-gradient(rgba(0,0,0,1));
+}
