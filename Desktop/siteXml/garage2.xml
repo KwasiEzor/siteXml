@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type ="text/xsl" href="garage2.xsl"?>
+
+<!DOCTYPE garage SYSTEM "garage.dtd">
+<garage>
+<!--Voiture de marque TOYOTA-->
+    <vehicule marque="toyota" type="sportive" carburant="diesel" nbportes="3" nbplaces="2" >
+        <image src="./siteXml/img/toyota-gt86.png" />
+        <modele>GT86</modele>
+        <couleur>Blanche</couleur>
+        <annee>2018</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>43.000 €</prix>
+        <pays id="fabricant">Japon</pays>
+    </vehicule>
+     <vehicule marque="toyota" type="familiale" carburant="diesel" nbportes="5" nbplaces="5" >
+        <image src="./siteXml/img/toyota-proace-city.png" />
+        <modele>PROACE CITY</modele>
+        <couleur>Noire</couleur>
+        <annee>2019</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>38.000 €</prix>
+        <pays id="fabricant">Japon</pays>
+    </vehicule>
+    <vehicule marque="toyota" type="utilitaire" carburant="diesel" nbportes="5" nbplaces="5" >
+        <image src="./siteXml/img/toyota_proace.png" />
+        <modele>PROACE</modele>
+        <couleur>Noire</couleur>
+        <annee>2019</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>33.000 €</prix>
+        <pays id="fabricant">Japon</pays>
+    </vehicule>
+    <vehicule marque="toyota" type="citadine" carburant="diesel" nbportes="5" nbplaces="5" >
+        <image src="./siteXml/img/toyota-aygo.png" />
+        <modele>AYGO</modele>
+        <couleur>Noire</couleur>
+        <annee>2019</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>28.500 €</prix>
+        <pays id="fabricant">Japon</pays>
+    </vehicule>
+<!--Voiture de marque VOLKSWAGEN-->
+  <vehicule marque="volkswagen" type="sportive" carburant="diesel" nbportes="3" nbplaces="2" >
+        <image src="./siteXml/img/vw-golf-gte-sport.png" />
+        <modele>GOLF GTE</modele>
+        <couleur>Blanche</couleur>
+        <annee>2016</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>34.900 €</prix>
+        <pays id="fabricant">Allemagne</pays>
+    </vehicule>
+     <vehicule marque="volkswagen" type="familiale" carburant="diesel" nbportes="5" nbplaces="5" >
+        <image src="./siteXml/img/vw-arteon.png" />
+        <modele>ARTEON</modele>
+        <couleur>Gold</couleur>
+        <annee>2018</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>28.800 €</prix>
+        <pays id="fabricant">Allemagne</pays>
+    </vehicule>
+    <vehicule marque="volkswagen" type="utilitaire" carburant="diesel" nbportes="5" nbplaces="5" >
+        <image src="./siteXml/img/vw-t-roc.png" />
+        <modele>T-ROC</modele>
+        <couleur>Red Gold</couleur>
+        <annee>2019</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>29.900 €</prix>
+        <pays id="fabricant">Allemagne</pays>
+    </vehicule>
+    <vehicule marque="volkswagen" type="citadine" carburant="diesel" nbportes="5" nbplaces="5" >
+        <image src="./siteXml/img/vw-golf-7.png" />
+        <modele>GOLF 7</modele>
+        <couleur>Gold</couleur>
+        <annee>2017</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>22.500 €</prix>
+        <pays id="fabricant">Allemagne</pays>
+    </vehicule>
+<!--Voiture de marque OPEL-->
+  <vehicule marque="opel" type="sportive" carburant="diesel" nbportes="3" nbplaces="2" >
+        <image src="./siteXml/img/opel-gt-coupé.png" />
+        <modele>GT COUPE</modele>
+        <couleur>Gold</couleur>
+        <annee>2017</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>44.900 €</prix>
+        <pays id="fabricant">Allemagne</pays>
+    </vehicule>
+     <vehicule marque="opel" type="familiale" carburant="diesel" nbportes="5" nbplaces="5" >
+        <image src="./siteXml/img/opel-astra.png" />
+        <modele>ASTRA</modele>
+        <couleur>Red</couleur>
+        <annee>2018</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>22.600 €</prix>
+        <pays id="fabricant">Allemagne</pays>
+    </vehicule>
+    <vehicule marque="opel" type="familiale" carburant="diesel" nbportes="5" nbplaces="5" >
+        <image src="./siteXml/img/opel-crossland-x.png" />
+        <modele>CROSSLAND-X</modele>
+        <couleur>Gris argenté</couleur>
+        <annee>2019</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>29.900 €</prix>
+        <pays id="fabricant">Allemagne</pays>
+    </vehicule>
+    <vehicule marque="opel" type="utilitaire" carburant="diesel" nbportes="5" nbplaces="5" >
+        <image src="./siteXml/img/opel-combo.png" />
+        <modele>COMBO L2 TPMR</modele>
+        <couleur>Blue Navy</couleur>
+        <annee>2017</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>20.500 €</prix>
+        <pays id="fabricant">Allemagne</pays>
+    </vehicule>
+<!--Voiture de marque NISSAN-->
+  <vehicule marque="nissan" type="sportive" carburant="diesel" nbportes="3" nbplaces="2" >
+        <image src="./siteXml/img/nissan-gt-r-nismo.png" />
+        <modele>GTR NISMO</modele>
+        <couleur>Blanche</couleur>
+        <annee>2016</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>44.900 €</prix>
+        <pays id="fabricant">Japon-France</pays>
+    </vehicule>
+     <vehicule marque="nissan" type="familiale" carburant="diesel" nbportes="5" nbplaces="5" >
+        <image src="./siteXml/img/nissan-qashqai.png" />
+        <modele>QASHQAI</modele>
+        <couleur>Gold</couleur>
+        <annee>2017</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>27.900 €</prix>
+        <pays id="fabricant">Japon</pays>
+    </vehicule>
+    <vehicule marque="nissan" type="utilitaire" carburant="diesel" nbportes="5" nbplaces="5" >
+        <image src="./siteXml/img/nissan-belvedere.png" />
+        <modele>BELVEDERE</modele>
+        <couleur>Red</couleur>
+        <annee>2019</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>32.500 €</prix>
+        <pays id="fabricant">Japon</pays>
+    </vehicule>
+    <vehicule marque="nissan" type="citadine" carburant="diesel" nbportes="5" nbplaces="5" >
+        <image src="./siteXml/img/nissan-leaf.png">
+        <modele>LEAF</modele>
+        <couleur>Red</couleur>
+        <annee>2019</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>28.500 €</prix>
+        <pays id="fabricant">Japon</pays>
+    </vehicule>
+<!--Voiture de marque RENAULT-->
+  <vehicule marque="renault" type="sportive" carburant="diesel" nbportes="3" nbplaces="2" >
+        <image src="./siteXml/img/renault-rs-01.png" />
+        <modele>RS01</modele>
+        <couleur>Blanche</couleur>
+        <annee>2018</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>46.900 €</prix>
+        <pays id="fabricant">France</pays>
+    </vehicule>
+     <vehicule marque="renault" type="familiale" carburant="diesel" nbportes="5" nbplaces="5" >
+        <image src="./siteXml/img/renault-capture.png">
+        <modele>CAPTURE</modele>
+        <couleur>Black metallic</couleur>
+        <annee>2019</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>35.800 €</prix>
+        <pays id="fabricant">France</pays>
+    </vehicule>
+    <vehicule marque="renault" type="utilitaire" carburant="diesel" nbportes="5" nbplaces="5" >
+        <image src="./siteXml/img/renault-master-ZE.png">
+        <modele>MASTER ZE</modele>
+        <couleur>Red Gold</couleur>
+        <annee>2018</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>39.700 €</prix>
+        <pays id="fabricant">France</pays>
+    </vehicule>
+    <vehicule marque="renault" type="familiale" carburant="diesel" nbportes="5" nbplaces="5" >
+        <image src="./siteXml/img/renault-clio.png">
+        <modele>CLIO</modele>
+        <couleur>Gold</couleur>
+        <annee>2018</annee>
+        <option airco="oui" verrouillage="oui" gps="oui" />
+        <prix>26.500 €</prix>
+        <pays id="fabricant">France</pays>
+    </vehicule>
+</garage>

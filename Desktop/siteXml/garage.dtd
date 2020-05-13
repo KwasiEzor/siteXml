@@ -1,0 +1,25 @@
+<!ELEMENT nom_balise DEF_CONTENU>
+<!ATTLIST nom_balise TYPE OBLIGATION VALEUR_DEFAUT>
+
+<!ELEMENT garage (vehicule+)>
+
+<!ELEMENT vehicule (modele,couleur,annee,option,prix,pays,image)>
+
+    <!ATTLIST vehicule marque (toyota|volkswagen|opel|nissan|renault) #REQUIRED VALEUR_DEFAUT
+                       type (familiale|sportive|utilitaire) #REQUIRED
+                       carburant (essence | diesel) #REQUIRED
+                       nbportes (2|3|4|5) #REQUIRED
+                       nbplaces (2|4|5|7) #REQUIRED >
+
+<!ELEMENT modele(#PCDATA)>
+    <!ATTLIST modele puissance CDATA #IMPLIED>
+<!ELEMENT couleur(#PCDATA)>
+<!ELEMENT annee(#PCDATA)>
+<!ELEMENT option(EMPTY)>
+    <!ATTLIST option airco (oui|non) "non"
+                     verrouillage(oui|non) "non"
+                     gps(oui|non) "non">
+<!ELEMENT prix(#PCDATA)>
+<!ELEMENT pays(#PCDATA)>
+    <!ATTLIST ID #REQUIRED>
+<!ELEMENT image(EMPTY) #IMPLIED>
